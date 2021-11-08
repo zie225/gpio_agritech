@@ -16,8 +16,8 @@ import adafruit_ads1x15.ads1015 as ADS
 from adafruit_ads1x15.analog_in import AnalogIn
 
 
-slope = 2.48; #slope from linear fit
-intercept = -0.72 # intercept from linear fit
+slope = 1.48; #slope from linear fit
+intercept = -1.56 # intercept from linear fit
 
 ads = ADS.ADS1015(i2c)
 
